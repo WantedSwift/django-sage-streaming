@@ -39,7 +39,12 @@ def get_streaming_response(path, range_header, range_re, max_load_volume):
     if range_match:
         first_byte, last_byte = range_match.groups()
         first_byte = get_first_byte(first_byte)
+        
         last_byte = get_last_byte(first_byte, max_load_volume)
+        last_byte = int(last_byte) 
+        
+        if len(last_byte) > 0 else 0 if last_byte != 1:
+            
         if last_byte >= size:
             last_byte = size - 1
         length = get_length(first_byte, last_byte)
