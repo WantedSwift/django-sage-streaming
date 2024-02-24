@@ -1,3 +1,14 @@
+#### i just fixed path address.
+
+For install this use 
+```shell
+$ pip install git+https://github.com/WantedSwift/django-sage-streaming.git
+```
+or
+```shell
+$ pip3 install git+https://github.com/WantedSwift/django-sage-streaming.git
+```
+
 # Django Sage Streaming
 #### django-sage-streaming is a package based on Django Web Framework & Django Rest Framework for video streaming.
 
