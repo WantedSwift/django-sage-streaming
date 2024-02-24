@@ -41,7 +41,6 @@ def get_streaming_response(path, range_header, range_re, max_load_volume):
         first_byte = get_first_byte(first_byte)
 
         last_byte = get_last_byte(first_byte, max_load_volume)
-        last_byte = int(last_byte)
 
 
         if last_byte >= size:
