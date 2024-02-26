@@ -1,4 +1,4 @@
-#### i just fixed path address and fucking streaming in safari.
+#### i just fixed path address and fucking streaming in safari and django +4
 
 For install this use 
 ```shell
