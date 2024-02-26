@@ -1,4 +1,4 @@
-#### i just fixed path address.
+#### i just fixed path address and fucking streaming in safari.
 
 For install this use 
 ```shell
